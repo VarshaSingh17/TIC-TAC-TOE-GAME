@@ -31,9 +31,7 @@ const showWinner=(winner)=>{
     msgContainer.classList.remove("hide");
     disableBoxes();
 }
-// const gameDraw=()=>{
 
-// }
 const checkWinner=()=>
 {
     for(let pattern of winPattern)
@@ -48,11 +46,6 @@ const checkWinner=()=>
             {
                 showWinner(pos1Val);
             }
-            // else if(pos1Val!==pos2Val && pos2Val!==pos3Val)
-            // {
-            //     msg.innerText="GAME DRAW PLEASE TRY AGAIN";
-            //     msgContainer.classList.remove("hide");
-            // }
         }
     }
 }
